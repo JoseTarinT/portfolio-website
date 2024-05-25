@@ -1,9 +1,9 @@
 // import React from "react";
-import Menu from "./components/menu";
+import Menu from "./components/menu/menu";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Menu />
       <h2>Here is another part</h2>
     </div>

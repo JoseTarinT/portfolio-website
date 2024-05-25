@@ -1,3 +1,10 @@
-Menu {
-  background-color: red;
+html,
+body {
+  height: 100vh;
+  /* background-color: aqua; */
+  background: linear-gradient(0deg, rgb(159, 0, 0), rgb(0, 0, 0) 100%) no-repeat;
+}
+
+.menu {
+  background-color: blue;
 }
