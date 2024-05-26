@@ -1,0 +1,15 @@
+h1 {
+  background: linear-gradient(0deg, rgb(129, 0, 0), rgb(255, 153, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.intro {
+  background-color: white;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 30px;
+  display: block;
+  width: 50%;
+}
