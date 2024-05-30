@@ -1,0 +1,14 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  /* align-items: center; */
+}
+.project {
+  border: 1px solid blue;
+  text-align: center;
+  margin: 9px;
+  padding: 6px;
+}

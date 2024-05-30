@@ -12,6 +12,7 @@ const Header = () => {
     // eslint-disable-next-line react/jsx-key
     return items.map((i) => (
       <button
+        className="menuButtons"
         key={i}
         onClick={() => navigate(i === "All" ? "/" : `/${i.toLowerCase()}`)}
       >
@@ -21,10 +22,10 @@ const Header = () => {
   };
 
   return (
-    <div className="menu">
+    <header className="menu">
       <div className="menu-options">{renderMenuItems(menuItems)}</div>
       <Contact />
-    </div>
+    </header>
   );
 };
 
